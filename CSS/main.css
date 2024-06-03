@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.ramka {
+    max-width: 370px;
+    height: 1320px;
+    background-color:#58643F;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #161D2A;
+    border-radius: 8px;
+}
+.skills {
+
+}
+.skills__img {
+    margin-top: 40px;
+    max-width: 370px;
+    max-height: 370px;
+}
+.skills__contacts {
+    margin-left: 40px;
+}
+.skills-title {
+    margin-top: 40px;
+    color: #161D2A;
+    font-weight: 700;
+    font-size: 22px;
+}
+.contacts-list{
+    list-style: none;
+}
+.skills-content {
+    margin-left: 30px;
+}
+.skills-content li::marker{
+    font-size: 0.7em;
+}
+.content__item {
+}
+.skills__tech {
+    margin-left: 40px;
+}
+.skills__soft {
+    margin-left: 40px;
+}
+.info {
+    margin-left: 88px;
+    margin-right: 40px;
+}
+.info__content {
+}
+.info__bio {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.info__sub-title {
+    font-size: 14px;
+    color: black;
+    line-height: 17px;
+}
+.bio__name {
+    line-height: 55px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.bio__text {
+    color: #595959;
+}
+.info__project {
+    margin-bottom: 40px;
+}
+.info-title {
+    line-height: 27px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.project__list {
+    list-style-position: inside;
+    list-style-type:decimal;
+}
+.project__list li::marker {
+    font-weight: bold;
+  }
+.project__list--item {
+}
+.link {
+    color: #58643F;
+}
+.info__work {
+    margin-bottom: 40px;
+}
+.info__sub-title--green {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #58643F;
+}
+.info__sub-title--green span{
+    color: black;
+}
+.info__faint--text {
+    font-size: 12px;
+    color: #A8A8A8;
+}
+.info__faint--text span{
+    color: black;
+}
+.info__work--list {
+    list-style-position: inside;
+}
+.info__work--list li::marker{
+    font-size: 0.7em;
+}
+.info__work--list-item {
+    font-size: 14px;
+    line-height: 24px;
+    color:#595959;
+    }
+.info__education {
+}
